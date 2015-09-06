@@ -60,4 +60,13 @@ RSpec.configure do |config|
   # The different available types are documented in the features, such as in
   # https://relishapp.com/rspec/rspec-rails/v/3-0/docs
   config.infer_spec_type_from_file_location!
+  
+  # This config snippet suppresses depreciation warnings when rspec is run. 
+  config.expose_current_running_example_as :example
+
 end
+
+#RSpec.configure do |c|
+  # This config snippet suppresses depreciation warnings when rspec is run. 
+#  c.expose_current_running_example_as :example
+#end
