@@ -1,0 +1,39 @@
+.nav {
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 20px;
+	padding: 10px 0 0 5px;
+}
+
+.nav h1 {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.nav a {
+	text-decoration: none !important;
+}
+
+.nav ul {
+	float: left;
+	list-style: none;
+	clear: right;
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+.nav ul li {
+	float: left;
+}
+
+.nav ul li a {
+	display: block;
+	width: auto;
+	padding: 8px 10px 8px 10px;
+	background: #eee;
+	color: #aaa;
+}
+
+.nav ul li a:hover {
+	background: #aaa;
+	color: #eee;
+}

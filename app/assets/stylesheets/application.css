@@ -20,6 +20,8 @@
 
 .success { border: 2px solid green; color: green; }
 .error   { border: 2px solid red; color: red; }
-flash.notice  { border: 2px solid blue; color: blue; }
+.notice  { border: 2px solid blue; color: blue; }
 
-
+.clear {
+	clear: both;
+}
