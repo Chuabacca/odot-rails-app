@@ -1,3 +1,4 @@
+require 'minitest/autorun'
 require 'spec_helper'
 
 describe TodoItem do

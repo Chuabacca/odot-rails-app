@@ -1,3 +1,4 @@
+require 'minitest/autorun'
 require 'spec_helper'
 
 describe "todo_lists/index" do
