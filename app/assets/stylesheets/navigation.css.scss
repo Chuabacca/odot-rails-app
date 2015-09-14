@@ -1,16 +1,19 @@
 .nav {
-	border-bottom: 1px solid #aaa;
+	background-color: #e15258;
+	border-bottom: 7px solid #aaa;
 	margin-bottom: 20px;
 	padding: 10px 0 0 5px;
 }
 
 .nav h1 {
 	float: left;
-	margin: 0 1em 0 0;
+	margin: 0 50% 0 30px;
+	color: #fff;
 }
 
 .nav a {
-	text-decoration: none !important;
+	text-decoration: none;
+	color: #fff;
 }
 
 .nav ul {
@@ -29,11 +32,11 @@
 	display: block;
 	width: auto;
 	padding: 8px 10px 8px 10px;
-	background: #eee;
-	color: #aaa;
+	background: #e15258;
+	color: #ddd;
 }
 
 .nav ul li a:hover {
-	background: #aaa;
-	color: #eee;
+	background: #e15258  ;
+	color: #fff;
 }

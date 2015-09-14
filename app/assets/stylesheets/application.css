@@ -13,6 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.wrapper {
+	width: 50%;
+	min-width: 400px;
+	margin: 0 auto 0 auto;
+}
+
 .alert {
 	border: 2px solid #aaa;
 	padding: 10px;
@@ -24,4 +31,8 @@
 
 .clear {
 	clear: both;
+}
+
+.vert-spacing {
+	margin-top: 30px;
 }
